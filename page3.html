@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!--nav-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid" style="background-color:rgb(230, 190, 190)">
+          <a class="navbar-brand" href="#">
+            <img src="amigos.jpg" width="100px" height="100px" alt="" class=" img-fluid ">
+            <h5 class="text-white px-3">Amigos</h5>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Profile</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="profile.html">
+                    <img src="i11.png" width="50px" height="50px" alt="">
+                    Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="f.html">
+                    <img src="people.webp" width="50px" height="50px" alt="">
+                    <span>Following & Followers</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="chats.html">
+                    <img src="chats.webp" width="50px" height="50px" alt="">
+                    <span>messages</span>
+                  </a>
+                </li>
+                  </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="page1.html">
+                    <button type="button" class="btn btn-primary" >Log out</button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--/nav-->
+      <!--header-->
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex py-2">
+            <img src="i11.png" width="90px" style="padding-top: 170px;">
+            <h4  style="padding-top: 200px;">sadeepya Valipishetty</h4>
+          </div>
+        </div>
+      </div>
+            <div id="carouselExampleRide" class=" bg-black container carousel slide" data-bs-ride="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="i1.jpg" class="d-block mx-auto w-50">
+                </div>
+                <div class="carousel-item">
+                  <img src="i5.jpg"  class="d-block mx-auto w-50">
+                </div>
+                <div class="carousel-item">
+                  <img src="i7.jpg"  class="d-block mx-auto w-50">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="container">
+              <div class="row  py-2">
+                <div class="col py-2 d-flex">
+                  <img src="i7.jpg" width="100px" height="100px" style="border-radius: 50%;">
+                  <h5 class="py-5">Sai Sreeja</h5>
+                </div>
+              </div>
+              <div class="container bg-black ">
+                 <div class="row ">
+                  <div class="col text-center">
+                    <video controls width="700px" height="700px"  class="mx-auto">
+                      <source src="yt1s.com - 30 seconds whatsapp status nature videos.mp4" />
+                    </video>
+                  </div>
+                 </div>
+              </div>
+      <!--/header-->
+      <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
